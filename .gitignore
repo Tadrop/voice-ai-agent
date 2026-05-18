@@ -1,0 +1,44 @@
+# Secrets & credentials
+.env
+.env.*
+!.env.example
+credentials.json
+token.json
+*.pem
+*.key
+
+# Client-specific deployment runbook (contains URLs, secrets, infra refs)
+# Anchored to repo root — does NOT match directives/deployment.md
+/DEPLOYMENT.md
+
+# Intermediates
+.tmp/
+*.log
+*.wav
+*.mp3
+*.ulaw
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

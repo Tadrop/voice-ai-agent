@@ -7,9 +7,9 @@ token.json
 *.pem
 *.key
 
-# Client-specific deployment runbook (contains URLs, secrets, infra refs)
-# Anchored to repo root — does NOT match directives/deployment.md
+# Deployment docs — both kept out of the repo
 /DEPLOYMENT.md
+directives/deployment.md
 
 # Intermediates
 .tmp/

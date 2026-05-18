@@ -10,6 +10,7 @@ ROOT = Path(__file__).resolve().parent.parent
 
 
 def test_directives_exist():
+    # deployment.md is intentionally gitignored (delivered out-of-band)
     expected = [
         "setup_voice_agent.md",
         "twilio_stream.md",
@@ -17,7 +18,6 @@ def test_directives_exist():
         "llm_orchestrator.md",
         "tts_pipeline.md",
         "call_management.md",
-        "deployment.md",
         "generate_workflow_diagram.md",
     ]
     for name in expected:
